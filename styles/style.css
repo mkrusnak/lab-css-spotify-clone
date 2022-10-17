@@ -6,3 +6,28 @@ Green: #00B172
 White: #FFF
 
 */
+ body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+
+}
+.upper-bar {
+    margin: 10px;
+}
+#green-logo {
+    width: 120px;
+}
+#landing-image {
+    width: 100vw;
+    height: auto;
+}
+.landing {
+background-image: url(../images/landing.jpg);
+background-position: center;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+color: white;
+}
